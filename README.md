@@ -56,75 +56,76 @@ I am currently focused on:
 
 ## Featured Projects
 
-### Gmail Inbox Agent
+### [Gmail Inbox Agent](https://github.com/aryanbaki/Gmail_Inbox_Agent1)
 
-[View Repository](https://github.com/aryanbaki/Gmail_Inbox_Agent1)
+[Live App](https://gmail-inbox-agent.streamlit.app/) | [Repository](https://github.com/aryanbaki/Gmail_Inbox_Agent1)
 
-A dark Streamlit dashboard for reviewing, clustering, prioritizing, searching, exporting, and safely organizing Gmail inbox messages.
+A Streamlit dashboard for reviewing, clustering, prioritizing, searching, exporting, and safely organizing Gmail inbox messages.
 
 **Features:**
 
 - Demo Mode with fake email data for safe public demos
 - Optional Gmail Mode using local OAuth
-- Fetches recent Gmail inbox messages
-- Clusters similar emails with TF-IDF and KMeans
-- Adds high, medium, and low priority labels
-- Explains why an email is marked as a certain priority
-- Search and filter by text, priority, cluster, sender, and unread status
-- Shows dashboard metrics, charts, grouped tables, and previews
-- Exports processed emails and summaries as CSV
-- Supports safe Gmail actions like archive, mark as read, and apply labels
+- Email clustering with TF-IDF and KMeans
+- Priority labels with short reasons
+- Search, filters, charts, previews, and CSV exports
+- Safe Gmail actions like archive, mark as read, and apply labels
 
 **Tech:** Python, Streamlit, Gmail API, OAuth, Pandas, scikit-learn, Plotly
 
 ---
 
-### Visual Memory Search
+### [Visual Memory Search](https://github.com/aryanbaki/VisualMemorySearch)
 
-[View Repository](https://github.com/aryanbaki/VisualMemorySearch)
+[Live App](https://visualmemorysearch.streamlit.app/) | [Repository](https://github.com/aryanbaki/VisualMemorySearch)
 
-A Streamlit app that lets users upload screenshots, analyze them with AI, and search through them using natural language.
+A Streamlit app for uploading screenshots and finding them later with natural language search.
 
 **Features:**
 
-- Upload screenshots
-- Analyze screenshot text and visual UI
-- Store screenshot metadata locally
-- Create searchable summaries and embeddings
-- Search screenshots using natural language
-- Return top matches with previews, confidence scores, and explanations
-- Includes a no-cost Demo Mode that does not call OpenAI
+- Screenshot upload and gallery
+- AI screenshot analysis
+- Searchable summaries and embeddings
+- Natural-language search with image previews
+- Demo Mode that does not require OpenAI credits
 
-**Tech:** Python, Streamlit, OpenAI vision/embeddings, Pandas, NumPy, scikit-learn, Pillow
+**Tech:** Python, Streamlit, OpenAI API, Pandas, NumPy, scikit-learn, Pillow
 
 ---
 
-### GitHub Profile README
+### [Tortoise Habitat Store](https://github.com/aryanbaki/Tortoise_Habitat_Store)
 
-[View Repository](https://github.com/aryanbaki/aryanbaki)
+[Live App](https://tortoise-habitat-store.streamlit.app/) | [Repository](https://github.com/aryanbaki/Tortoise_Habitat_Store)
 
-This repository powers my GitHub profile README and highlights my projects, skills, tools, and current technical focus.
+An inventory manager for tortoise habitat parts and complete habitat kits, with a Spring Boot version and a Streamlit demo version.
 
 **Features:**
 
-- Clean profile introduction
-- LinkedIn and GitHub links
-- Skill icons
-- Project summaries
-- GitHub stats
-- Repository index
+- Search parts and habitat kits
+- Add, update, and delete inventory records
+- Buy kit workflow that lowers inventory
+- Labeled forms for price, stock, supplier, and kit details
+- Public Streamlit demo for quick review
 
-**Tech:** Markdown, GitHub README tools, Shields.io, Skill Icons, GitHub Readme Stats
+**Tech:** Java, Spring Boot, Thymeleaf, JPA, H2, Python, Streamlit, Pandas
 
 ---
 
 ## Repository Index
 
-| Repository | Type | Main Tech | Summary |
-|---|---|---|---|
-| [Gmail_Inbox_Agent1](https://github.com/aryanbaki/Gmail_Inbox_Agent1) | AI / Automation / Dashboard | Python, Streamlit | Gmail inbox clustering, priority scoring, search, export, and safe Gmail actions |
-| [VisualMemorySearch](https://github.com/aryanbaki/VisualMemorySearch) | AI / Search / Productivity | Python, Streamlit | Screenshot upload, AI analysis, local storage, and natural-language visual search |
-| [aryanbaki](https://github.com/aryanbaki/aryanbaki) | Profile README | Markdown | Main GitHub profile README |
+| Repository | Type | Main Tech | Links | Summary |
+|---|---|---|---|---|
+| [Gmail Inbox Agent](https://github.com/aryanbaki/Gmail_Inbox_Agent1) | AI / Automation / Dashboard | Python, Streamlit | [Live App](https://gmail-inbox-agent.streamlit.app/) | Gmail inbox clustering, priority scoring, search, export, and safe Gmail actions |
+| [Visual Memory Search](https://github.com/aryanbaki/VisualMemorySearch) | AI / Search / Productivity | Python, Streamlit | [Live App](https://visualmemorysearch.streamlit.app/) | Screenshot upload, AI analysis, local storage, and natural-language visual search |
+| [Tortoise Habitat Store](https://github.com/aryanbaki/Tortoise_Habitat_Store) | Inventory / Web App | Java, Spring Boot, Streamlit | [Live App](https://tortoise-habitat-store.streamlit.app/) | Habitat supply inventory manager with parts, kits, search, and stock updates |
+| [Travel Booking Web App](https://github.com/aryanbaki/Travel_Booking_Web_App) | Full-Stack Web App | Angular, TypeScript | Repository | Travel booking frontend with pages, components, and booking workflow |
+| [Travel Booking API](https://github.com/aryanbaki/Travel_Booking_API) | Backend API | Java, Spring Boot | Repository | Backend API for travel booking data and application logic |
+| [Weather Forecast Translation](https://github.com/aryanbaki/Weather_Forecast_Translation) | Java Web App | Java, Spring Boot | Repository | Weather forecast app with translated display text and backend rendering |
+| [Student Roster Console](https://github.com/aryanbaki/Student_Roster_Console) | Console App | C++ | Repository | Console roster manager using classes, arrays, validation, and formatted output |
+| [Route Dispatch Algorithm](https://github.com/aryanbaki/Route_Dispatch_Algorithm) | Algorithms | Python | Repository | Route planning and package dispatch logic focused on efficient delivery order |
+| [HealthRisk Model Optimization](https://github.com/aryanbaki/HealthRisk_Model_Optimization) | Machine Learning | Python | Repository | Health risk modeling workflow with optimization and evaluation steps |
+| [Attendance Clustering Pipeline](https://github.com/aryanbaki/Attendance_Clustering_Pipeline) | Data Science | Python | Repository | Clustering pipeline for analyzing attendance patterns and grouped behavior |
+| [Buildathon](https://github.com/aryanbaki/Buildathon) | Project Collection | Python, Streamlit | Repository | Buildathon workspace with application prototypes and demo projects |
 
 ---
 
@@ -136,3 +137,4 @@ Improving project documentation and READMEs
 Practicing Python, Java, AI tools, and full-stack development
 Learning cybersecurity and IT support fundamentals
 Preparing for internships and entry-level technical roles
+```
